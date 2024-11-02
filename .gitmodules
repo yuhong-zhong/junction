@@ -1,6 +1,6 @@
 [submodule "lib/shenango"]
 	path = lib/caladan
-	url = https://github.com/shenango/caladan.git
+	url = https://github.com/yuhong-zhong/caladan.git
 	ignore = dirty
 [submodule "lib/glibc"]
 	path = lib/glibc
