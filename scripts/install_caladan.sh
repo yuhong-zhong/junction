@@ -15,7 +15,7 @@ git submodule update --init --recursive -f caladan
 
 # Apply patches
 cd $CALADAN_DIR/
-git -c user.name="x" -c user.email="x" am $CALADAN_PATCHES_DIR/*
+# git -c user.name="x" -c user.email="x" am $CALADAN_PATCHES_DIR/*
 
 prev=$(cat "$ROOT_DIR/lib/.caladan_installed_ver" 2>&1 || true)
 cur=$(cat "$CALADAN_PATCHES_DIR"/* | sha256sum)
